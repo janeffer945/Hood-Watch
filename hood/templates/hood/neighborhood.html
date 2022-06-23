@@ -1,0 +1,22 @@
+{% extends "hood/base.html" %}
+{% block content %}
+<!-- {% for hood in neighborhoods %}
+ <h1>hi</h1>
+{% endfor %} -->
+
+    {% for neighborhood in neighborhoods %}
+    <h1>{{neighborhood}}</h1>
+        <article class="media content-section">
+          <img class="rounded-circle article-img" src="{{ neighborhood.image.url }}">
+          <div class="media-body">
+            <div class="article-metadata">
+              <a class="mr-2" href="{% url 'neighborhood-detail' neighborhood.id %}">{{ neighborhood.name }}</a>
+              <small class="text-muted">{{ neighborhood.created_on|date:"F d, Y" }}</small>
+            </div>
+            <h2><a class="article-title" href="#">{{ neighborhood.name }}</a></h2>
+            <p class="article-content">{{ neighborhood.description }}</p>
+            <p class="article-content">{{ neighborhood.location }}</p>
+          </div>
+        </article>
+    {% endfor %}
+{% endblock content %}

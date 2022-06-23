@@ -1,0 +1,21 @@
+<h1>{{neighborhood}}</h1>
+    <article class="media content-section">
+        <img class="rounded-circle article-img" src="{{ neighborhood.image.url }}">
+        <div class="media-body">
+        <div class="article-metadata">
+            <a class="mr-2" href="#">{{ neighborhood.name }}</a>
+            <small class="text-muted">{{ neighborhood.created_on|date:"F d, Y" }}</small>
+        </div>
+        {% if neighborhood.user == user %}
+        <div>
+          <a class="btn btn-warning btn-sm mt-1 mb-1" href="{% url 'update-hood' neighborhood.id %}">Update</a>
+          <a class="btn btn-danger btn-sm mt-1 mb-1" href="{% url 'delete-hood' neighborhood.id %}">Delete</a>
+        </div>
+      {% endif %}
+        <h2><a class="article-title" href="#">{{ neighborhood.name }}</a></h2>
+        <small class="text-muted">Occupants: {{ neighborhood.occupants_count}}</small>
+        <p class="article-content">{{ neighborhood.description }}</p>
+        <p class="article-content">health tel: {{ neighborhood.health_cell }}</p>
+        <p class="article-content">Police tel: {{ neighborhood.police_hotline }}</p>
+        </div>
+    </article>

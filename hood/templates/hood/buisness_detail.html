@@ -1,0 +1,15 @@
+<h1>{{business}}</h1>
+    <article class="media content-section">
+        <img class="rounded-circle article-img" src="{{ biz.image.url }}">
+        <div class="media-body">
+        <div class="article-metadata">
+            <a class="mr-2" href="#">{{ biz.name }}</a>
+            <small class="text-muted">{{ biz.created_on|date:"F d, Y" }}</small>
+        </div>
+        <h2><a class="article-title" href="#">{{ biz.name }}</a></h2>
+        <small class="text-muted">{{ biz.email}}</small>
+        <p class="article-content">{{ biz.description }}</p>
+        <p class="article-content">health tel: {{ biz.health_cell }}</p>
+        <p class="article-content">Police tel: {{ biz.police_hotline }}</p>
+        </div>
+    </article>
