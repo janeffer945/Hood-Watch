@@ -11,4 +11,8 @@ Html
 CSS
 Bootstrap
 ## User Stories
+Users will be able to:
+*Create a profile
+*add a neighborhood
+*add a business
 
