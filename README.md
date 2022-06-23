@@ -51,3 +51,12 @@ Push changes made and click pull request so that I can access the changes made.
 ​
         $ git clone 
         $ cd Pitch
+## Running the Application
+* Creating the virtual environment
+​
+        $ python3.8 -m venv --without-pip virtual
+        $ source virtual/bin/env
+        $ curl https://bootstrap.pypa.io/get-pip.py | python
+        $ pip install Django
+​
+        
