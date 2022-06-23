@@ -77,8 +77,13 @@ WSGI_APPLICATION = 'neighborhoodwatch.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
-    }
+        'NAME': 'watch',
+        'PASSWORD':'njeri@K123',
+        'HOST':'localhost',
+        'PORT':'3306',
+        'USER':'root',
+
+            }
 }
 
 
