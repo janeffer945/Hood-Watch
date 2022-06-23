@@ -45,4 +45,9 @@ Push changes made and click pull request so that I can access the changes made.
 * python3.8
 * pip
 * virtualenv
-### Cloning
+### Cloning* In your terminal:
+​
+       * In your terminal:
+​
+        $ git clone 
+        $ cd Pitch
