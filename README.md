@@ -42,3 +42,6 @@ Commit the changes you have made(git commit -m"Fix bug")
 Push changes made and click pull request so that I can access the changes made.
 ## SetUp / Installation Requirements
 ### Prerequisites
+* python3.8
+* pip
+* virtualenv
