@@ -22,5 +22,15 @@ Users will be able to:
 *View posted neighborhoods
 *Delete neighborhoods
 ## BDD
+| Behavior            | Input                         | Output                        | 
+| ------------------- | ----------------------------- | ----------------------------- | 
+| Login to admin  | **username**:jane , **password** : njeri@123 | view and make changes to the admin | 
+|Signup to the application | Click on `Signup` | A sign up page appears with a sign up form |
+|  Login to the site | Click on `Log in`  | Redirected to the login page with a login form |
+|  Search in the search field | Input keywords to be searched then click SEARCH | Search page is loaded and displays with the searched results |
+|Submit a post|click on `Upload Post`| An upload page appears with an upload form containing different fields|
+|View profile|click `account` link in the navbar|Redirects to profile page with an option to edit profile|
+|View businesses|click `businesses`|businesses page with the businesses in the neighbourhood|
+
 
 
