@@ -15,4 +15,9 @@ Users will be able to:
 *Create a profile
 *add a neighborhood
 *add a business
-
+*Post a buiness in a neighborhood
+*View posted businesses
+*Delete businesses
+*Post their neighborhood
+*View posted neighborhoods
+*Delete neighborhoods
