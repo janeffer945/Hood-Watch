@@ -32,3 +32,12 @@ Users will be able to:
 |View profile|click `account` link in the navbar|Redirects to profile page with an option to edit profile|
 |View businesses|click `businesses`|businesses page with the businesses in the neighbourhood|
 ## Known Bugs
+If you find a bug please feel free to alert me. To fix the bug:
+​
+Fork the repository
+Open your terminal
+Create a new branch
+Make the changes, then (git add) to add changes
+Commit the changes you have made(git commit -m"Fix bug")
+Push changes made and click pull request so that I can access the changes made.
+​
