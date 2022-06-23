@@ -31,6 +31,6 @@ Users will be able to:
 |Submit a post|click on `Upload Post`| An upload page appears with an upload form containing different fields|
 |View profile|click `account` link in the navbar|Redirects to profile page with an option to edit profile|
 |View businesses|click `businesses`|businesses page with the businesses in the neighbourhood|
-
+## K## Known Bugsnown Bugs
 
 
